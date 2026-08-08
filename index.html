@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manoj Parmar — AI/ML Engineer</title>
+<meta name="description" content="Manoj Parmar — Senior AI/ML Engineer building agentic AI and production ML systems. Georgia Tech &amp; IIT Bombay.">
+<meta name="theme-color" content="#0f172a">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Manoj Parmar — AI/ML Engineer">
+<meta property="og:description" content="I build and ship production AI systems — from LLM-powered agentic applications to the machine learning systems that power real-world products.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/headshot.jpg">
+
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Background grid / glow -->
+<div class="bg-fx" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+</div>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">MP</span>
+      <span class="brand-name">Manoj Parmar</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark / light theme">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-text reveal">
+        <p class="eyebrow mono">Hi, I'm Manoj —</p>
+        <h1 class="hero-title">
+          I build production
+          <span class="rotate-wrap mono">
+            <span class="rotate" id="rotate-text" aria-live="polite">AI systems</span>
+          </span>
+          that ship.
+        </h1>
+        <p class="hero-sub">
+          Senior AI/ML Engineer designing agentic AI and machine learning systems that go from
+          notebook to production — reliable, measurable, and safe at scale.
+        </p>
+
+        <div class="hero-tags mono">
+          <span>Agentic AI</span>
+          <span>LLMs &amp; RAG</span>
+          <span>Applied ML</span>
+          <span>AWS Bedrock</span>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#resume" class="btn btn-primary">
+            View Resume
+          </a>
+          <a href="assets/Manoj_Parmar_Resume.pdf" download class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download PDF
+          </a>
+          <a href="mailto:manojbparmar98@gmail.com" class="btn btn-ghost">Email me</a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://github.com/Manoj98" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .32.21.67.8.56A10.99 10.99 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"></path></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/manojparmar98/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal" style="--delay:120ms">
+        <div class="photo-frame">
+          <img
+            src="assets/images/headshot.jpg"
+            srcset="assets/images/headshot.jpg 900w, assets/images/headshot@2x.jpg 1400w"
+            sizes="(max-width: 640px) 220px, 320px"
+            alt="Portrait of Manoj Parmar"
+            width="900" height="900"
+          >
+        </div>
+        <div class="photo-badge mono">
+          <span class="dot"></span> Jersey City, NJ
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-cue mono" aria-hidden="true">scroll</div>
+  </section>
+
+  <!-- ===================== STATS ===================== -->
+  <section class="stats-strip reveal" aria-label="Highlights">
+    <div class="container stats-grid">
+      <div class="stat">
+        <span class="stat-num mono" data-target="30" data-suffix="K+">0</span>
+        <span class="stat-label">users served in production</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num mono" data-target="9" data-prefix="$" data-suffix="M+">0</span>
+        <span class="stat-label">annual value delivered</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num mono" data-target="6" data-suffix="+">0</span>
+        <span class="stat-label">years shipping ML / AI</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num mono" data-target="40" data-suffix="%">0</span>
+        <span class="stat-label">inference cost cut via model tiering</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="mono num">01</span> About</h2>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>
+            I build and ship production AI systems — from LLM-powered agentic applications to the
+            machine learning systems that power real-world products.
+          </p>
+          <p>
+            Over the past 6+ years, I've worked across AI/ML engineering, applied AI, and data science,
+            taking systems from experimentation to production. I've designed multi-stage agentic
+            workflows using Claude on AWS Bedrock, built retrieval and recommendation systems combining
+            LLMs with hybrid semantic search, and developed the evaluation, monitoring, and responsible
+            AI guardrails needed to deploy these systems reliably at scale. My production AI work
+            currently supports 30K+ users.
+          </p>
+          <p>
+            Before GenAI, I built and deployed machine learning systems across fintech and insurance.
+            At AB InBev, I developed XGBoost credit risk models and causal inference solutions that
+            generated ~$9M in annual value and helped reduce SMB credit overdues by 30%. At Prudential,
+            I've applied experimentation, personalization, propensity modeling, and AI/ML to
+            large-scale customer-facing products.
+          </p>
+          <p class="about-pullquote">
+            What I care about most is turning AI from a prototype into a product that survives contact
+            with real users — reliable, measurable, safe, and cost-efficient at scale.
+          </p>
+          <p>
+            Currently, I'm a Senior AI/ML Engineer at Prudential, building agentic AI products for a
+            30K+ member wellness platform. I'm also Deputy Chair of the AI/Data Analytics functional
+            area for the LTCi Consortium, working across carriers to advance AI best practices.
+          </p>
+        </div>
+
+        <aside class="about-side reveal" style="--delay:100ms">
+          <div class="side-card">
+            <h3 class="mono side-title">Focus areas</h3>
+            <ul class="focus-list">
+              <li>AI/ML Engineering</li>
+              <li>Applied AI &amp; Agentic Systems</li>
+              <li>Forward Deployed Engineering</li>
+              <li>Production AI Products</li>
+            </ul>
+          </div>
+          <div class="side-card">
+            <h3 class="mono side-title">Education</h3>
+            <div class="edu-item">
+              <p class="edu-degree">MS, Computational Data Analytics</p>
+              <p class="edu-school">Georgia Institute of Technology</p>
+              <p class="edu-year mono">2022 – 2023</p>
+            </div>
+            <div class="edu-item">
+              <p class="edu-degree">BS, Mechanical Engineering</p>
+              <p class="edu-school">Indian Institute of Technology, Bombay</p>
+              <p class="edu-year mono">2015 – 2019</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="mono num">02</span> Experience</h2>
+
+      <div class="timeline">
+        <article class="tl-item reveal">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">Senior AI/ML Engineer</h3>
+                <p class="tl-org">Prudential Insurance · Jersey City, NJ</p>
+              </div>
+              <span class="tl-date mono">Feb 2024 — Present</span>
+            </div>
+
+            <div class="tl-group">
+              <h4 class="tl-group-title">Agentic AI Wellness Assistant</h4>
+              <ul class="tl-list">
+                <li>Built a customer-facing conversational AI assistant delivering personalized wellness guidance, content discovery, and support routing for a healthcare insurance portal (30K+ policyholders), lifting MAU by 20%.</li>
+                <li>Designed a multi-stage agent harness on AWS Bedrock with ReAct tool-use across search, recommendation, and escalation, plus short- and long-term conversational memory; deployed as a containerized FastAPI service on AWS ECS Fargate.</li>
+                <li>Built input/output safety guardrails — intent detection on user queries and post-response checks on model outputs — to block medical advice and auto-escalate to human care teams; shipped an eval-driven CI pipeline scoring every release for quality and safety pre-deployment.</li>
+                <li>Reduced inference cost by 40% and p95 latency by 30% through model tiering (Haiku for safety checks, Sonnet for reasoning) and prompt caching.</li>
+              </ul>
+            </div>
+
+            <div class="tl-group">
+              <h4 class="tl-group-title">Personalized Wellness Recommendation System</h4>
+              <ul class="tl-list">
+                <li>Built an LLM-powered content recommendation engine personalizing health articles and care-vendor services for 30K+ wellness portal members, lifting content CTR by 20% and MAU by 15%.</li>
+                <li>Designed the retrieval core to convert each member's health profile into natural language queries via an LLM, generate embeddings, and rank content through hybrid semantic + keyword retrieval.</li>
+                <li>Productionized the system as an event-driven pipeline on AWS ECS and OpenSearch with automated crash resume, serving recommendations reliably at $70 per 1K users.</li>
+              </ul>
+            </div>
+
+            <div class="tl-group">
+              <ul class="tl-list">
+                <li>Built an experimentation framework for wellness marketing campaigns; partnered with product and marketing to run 10+ A/B tests, increasing enrollment 2x and projecting $5M in annual claim savings.</li>
+              </ul>
+            </div>
+
+            <div class="tl-tags mono">
+              <span>AWS Bedrock</span><span>Claude</span><span>ReAct</span><span>FastAPI</span><span>ECS Fargate</span><span>OpenSearch</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <div>
+                <h3 class="tl-role">Data Scientist, FinTech Products</h3>
+                <p class="tl-org">Anheuser-Busch InBev · Bangalore, India</p>
+              </div>
+              <span class="tl-date mono">Jul 2019 — Jul 2022</span>
+            </div>
+
+            <div class="tl-group">
+              <ul class="tl-list">
+                <li>Deployed dual XGBoost credit risk models in Azure Databricks scoring 1M invoices/month for ABInBev's B2B lending platform, driving ~$9M in annual benefits.</li>
+                <li>Designed an experimentation framework (difference-in-differences) for credit risk models in Brazil, achieving a 30% overdue reduction and 3% net revenue uplift; scaled up and presented to the CTO.</li>
+                <li>Built daily PySpark pipelines ingesting 1M+ invoices into Delta Lake tables, giving ML teams self-serve feature store access and cutting model build time by 30%.</li>
+              </ul>
+            </div>
+
+            <div class="tl-tags mono">
+              <span>XGBoost</span><span>Azure Databricks</span><span>Causal Inference</span><span>PySpark</span><span>Delta Lake</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="mono num">03</span> Projects</h2>
+      <p class="section-lead reveal">
+        A mix of production systems built at work and independent / academic projects.
+      </p>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-kind mono">Production · Prudential</span>
+          </div>
+          <h3>Agentic AI Wellness Assistant</h3>
+          <p>Multi-stage ReAct agent on AWS Bedrock handling search, recommendation, and escalation for a 30K+ member healthcare platform, with input/output safety guardrails and an eval-driven release pipeline.</p>
+          <div class="project-tags mono">
+            <span>Claude</span><span>AWS Bedrock</span><span>FastAPI</span><span>ECS Fargate</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:60ms">
+          <div class="project-top">
+            <span class="project-kind mono">Production · Prudential</span>
+          </div>
+          <h3>Personalized Wellness Recommendation Engine</h3>
+          <p>LLM-driven content recommender that turns member health profiles into natural-language queries, embeds and ranks content via hybrid semantic + keyword retrieval, and serves it through an event-driven pipeline.</p>
+          <div class="project-tags mono">
+            <span>LLMs</span><span>Embeddings</span><span>OpenSearch</span><span>Hybrid Search</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:120ms">
+          <div class="project-top">
+            <span class="project-kind mono">Production · AB InBev</span>
+          </div>
+          <h3>Credit Risk &amp; Causal Inference Platform</h3>
+          <p>Dual XGBoost credit risk models scoring 1M invoices/month, paired with a difference-in-differences experimentation framework that cut SMB credit overdues by 30% across Brazil.</p>
+          <div class="project-tags mono">
+            <span>XGBoost</span><span>Causal Inference</span><span>Azure Databricks</span><span>PySpark</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:180ms">
+          <div class="project-top">
+            <span class="project-kind mono">Independent</span>
+            <a href="https://github.com/Manoj98/RoboChef" target="_blank" rel="noopener" class="project-link" aria-label="RoboChef on GitHub">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .32.21.67.8.56A10.99 10.99 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"></path></svg>
+            </a>
+          </div>
+          <h3>RoboChef — Food Recognition &amp; Recipe Recommendation</h3>
+          <p>Trained a ResNet-based CNN on ~100K images to classify food with 83% accuracy, then built a collaborative-filtering layer to recommend similar recipes.</p>
+          <div class="project-tags mono">
+            <span>CNN / ResNet</span><span>Collaborative Filtering</span><span>PyTorch</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:240ms">
+          <div class="project-top">
+            <span class="project-kind mono">Academic · Georgia Tech</span>
+            <a href="https://github.com/Manoj98/Improving-Question-Answering-with-external-context-fusion" target="_blank" rel="noopener" class="project-link" aria-label="QA-GNN project on GitHub">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .32.21.67.8.56A10.99 10.99 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"></path></svg>
+            </a>
+          </div>
+          <h3>QA with External Context Fusion (QA-GNN)</h3>
+          <p>Implemented a QA-GNN architecture that fuses language-model context encoding with retrieved knowledge subgraphs to improve question answering.</p>
+          <div class="project-tags mono">
+            <span>GNNs</span><span>Knowledge Graphs</span><span>Language Models</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="mono num">04</span> Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3 class="mono skill-title">Agentic AI &amp; LLMs</h3>
+          <div class="chip-row">
+            <span class="chip">Claude</span><span class="chip">AWS Bedrock</span><span class="chip">ReAct (Tool Use, Planning)</span><span class="chip">RAG / Hybrid Search</span><span class="chip">Vector DBs (FAISS, OpenSearch)</span><span class="chip">Eval-driven CI</span><span class="chip">Responsible AI Guardrails</span>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--delay:60ms">
+          <h3 class="mono skill-title">ML &amp; Modeling</h3>
+          <div class="chip-row">
+            <span class="chip">PyTorch</span><span class="chip">Scikit-learn</span><span class="chip">XGBoost</span><span class="chip">LightGBM</span><span class="chip">Recommender Systems</span><span class="chip">Causal Inference</span><span class="chip">A/B Testing</span><span class="chip">Propensity Modeling</span>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--delay:120ms">
+          <h3 class="mono skill-title">Infra &amp; Deployment</h3>
+          <div class="chip-row">
+            <span class="chip">AWS (Bedrock, ECS)</span><span class="chip">Azure Databricks</span><span class="chip">Docker</span><span class="chip">FastAPI</span><span class="chip">PySpark</span><span class="chip">Delta Lake</span>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--delay:180ms">
+          <h3 class="mono skill-title">Languages &amp; Data</h3>
+          <div class="chip-row">
+            <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">PowerBI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LEADERSHIP ===================== -->
+  <section class="section" id="leadership">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="mono num">05</span> Leadership</h2>
+
+      <div class="leadership-card reveal">
+        <div class="tl-head">
+          <div>
+            <h3 class="tl-role">Deputy Chair, AI/Data Analytics Group</h3>
+            <p class="tl-org">LTCi Consortium (Long-Term Care Insurance)</p>
+          </div>
+          <span class="tl-date mono">Jun 2026 — Present</span>
+        </div>
+        <p>
+          Leading an industry-wide initiative across long-term care insurance carriers to advance AI
+          capabilities and establish shared best practices for the sector.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESUME ===================== -->
+  <section class="section section-alt" id="resume">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="mono num">06</span> Resume</h2>
+
+      <div class="resume-actions reveal">
+        <a href="assets/Manoj_Parmar_Resume.pdf" download class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Download PDF
+        </a>
+        <a href="assets/Manoj_Parmar_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Open in new tab</a>
+      </div>
+
+      <div class="resume-viewer reveal" style="--delay:80ms">
+        <iframe
+          src="assets/Manoj_Parmar_Resume.pdf"
+          title="Manoj Parmar Resume"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal"><span class="mono num">07</span> Contact</h2>
+      <div class="contact-inner reveal">
+        <p class="contact-lead">
+          Open to AI/ML Engineering, Applied AI, Agentic AI, and Forward Deployed Engineering roles.
+          Reach out if any of that sounds like a fit.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:manojbparmar98@gmail.com" class="contact-link">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"></path><path d="M22 6l-10 7L2 6"></path><path d="M2 6h20v12H2z"></path></svg>
+            manojbparmar98@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/manojparmar98/" target="_blank" rel="noopener" class="contact-link">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"></path></svg>
+            linkedin.com/in/manojparmar98
+          </a>
+          <a href="https://github.com/Manoj98" target="_blank" rel="noopener" class="contact-link">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .32.21.67.8.56A10.99 10.99 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"></path></svg>
+            github.com/Manoj98
+          </a>
+          <span class="contact-link contact-static">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Jersey City, NJ
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Manoj Parmar. Built with HTML, CSS &amp; JS — hosted on GitHub Pages.</p>
+    <a href="#top" class="back-to-top mono">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
