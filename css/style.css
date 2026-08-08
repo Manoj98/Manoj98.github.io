@@ -1,5 +1,5 @@
 /* =========================================================
-   Manoj Parmar — Portfolio
+   Manoj Parmar: Portfolio
    Minimal, technical, dark-first with light mode support.
    ========================================================= */
 
@@ -784,6 +784,29 @@ a.contact-link:hover { border-color: var(--accent); color: var(--accent); transf
 }
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; }
+}
+
+/* ---------------- Toast ---------------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translate(-50%, 12px);
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transition: opacity 0.25s var(--ease), transform 0.25s var(--ease);
+  z-index: 1000;
+  pointer-events: none;
+}
+.toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
 
 /* ---------------- Responsive ---------------- */

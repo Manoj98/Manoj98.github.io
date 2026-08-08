@@ -1,3 +1,6 @@
+# Local-only source assets (originals, not needed in the published site)
+reference/
+
 # OS / editor
 .DS_Store
 Thumbs.db

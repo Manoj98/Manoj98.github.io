@@ -87,7 +87,7 @@
 
   /* ---------------- Rotating hero role text ---------------- */
   const rotateEl = document.getElementById('rotate-text');
-  const roles = ['AI systems', 'agentic products', 'ML pipelines', 'that ship'];
+  const roles = ['AI systems', 'agentic products', 'ML pipelines'];
   let roleIndex = 0;
 
   if (rotateEl && !prefersReducedMotion) {
@@ -140,6 +140,31 @@
     );
     statEls.forEach((el) => statObserver.observe(el));
   }
+
+  /* ---------------- Email links: copy address as a fallback ---------------- */
+  const EMAIL = 'manojbparmar98@gmail.com';
+  const emailLinks = document.querySelectorAll('.email-link');
+
+  function showToast(message) {
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    requestAnimationFrame(() => toast.classList.add('show'));
+    setTimeout(() => {
+      toast.classList.remove('show');
+      setTimeout(() => toast.remove(), 300);
+    }, 2200);
+  }
+
+  emailLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(EMAIL).catch(() => {});
+      }
+      showToast(`Copied ${EMAIL} to your clipboard.`);
+    });
+  });
 
   /* ---------------- Footer year ---------------- */
   const yearEl = document.getElementById('year');
