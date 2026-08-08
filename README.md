@@ -35,3 +35,10 @@ needed.
 To point a custom domain at it later: add a `CNAME` file with the domain, then configure
 your registrar's DNS (A records to GitHub's IPs or a CNAME record to `manoj98.github.io`),
 and set the domain under repo **Settings → Pages**.
+
+## Updating the resume or headshot
+
+Both are referenced with a `?v=N` cache-busting query string (e.g. `Manoj_Parmar_Resume.pdf?v=2`)
+in `index.html`. Browsers cache PDFs and images aggressively, so whenever you swap either file
+for a new version under the same filename, bump `v` in every reference to it, otherwise visitors
+may keep seeing the old cached copy.
